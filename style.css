@@ -37,17 +37,16 @@ a {
 }
 
 header {
-  height: 40vh;
+  height: 60vh;
   position: relative;
   display: flex;
-  justify-content: center;
   background: linear-gradient(rgba(249, 249, 250, 0.94),rgba(249, 249, 250, 0.94)),url(./images/piano.jpg);
 
   align-items: center;
 }
 
 header h1 {
-  max-width: 60%;
+  max-width: 40%;
   margin: 0 auto;
 }
 
