@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  line-height: 58px;
+  line-height: 45px;
   font-size: 40px;
   color: #042f64;
 }
@@ -37,10 +37,12 @@ a {
 }
 
 header {
-  height: 80vh;
+  height: 40vh;
   position: relative;
   display: flex;
   justify-content: center;
+  background: linear-gradient(rgba(249, 249, 250, 0.94),rgba(249, 249, 250, 0.94)),url(./images/piano.jpg);
+
   align-items: center;
 }
 
@@ -65,7 +67,7 @@ header h1 {
 
 .about-me {
   display: flex;
-  background: linear-gradient(rgba(249, 249, 250, 0.94),rgba(249, 249, 250, 0.94)),url(./images/about-background.jpg);
+  background: linear-gradient(rgba(249, 249, 250, 0.94),rgba(249, 249, 250, 0.94)),url(./images/piano.jpg);
   background-size: cover;
   background-position: center center;
   padding-top: 142px;
